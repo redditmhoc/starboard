@@ -498,10 +498,8 @@ func (b *Bot) runInvite(ctx *commandler.Context) (err error) {
 		Description: ctx.S(
 			"commands.invite.phrase.content",
 			"https://discordapp.com/oauth2/authorize?client_id="+ctx.Session.State.User.ID+"&scope=bot&permissions=8",
-			"https://discord.gg/MZCKAtF",
-			"https://www.patreon.com/starboard",
-			"https://www.paypal.me/DimGG",
-			"https://discordbots.org/bot/349626729226305537",
+			"https://discord.gg/f9kjYfs",
+			"https://github.com/redditmhoc/starboard",
 		),
 	})
 	return
